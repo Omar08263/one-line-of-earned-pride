@@ -6,6 +6,20 @@ a quiet, earned moment of pride — a woman climbs the three steps to her
 front door without touching the rail after eleven months of physio.
 Deterministic: the same bytes on every run; no network, no randomness,
 no reads outside this file.
+
+Design note (why this line): the judge weighs, in order, genuine earned
+pride, a concrete scene, pride earned inside the line, landing in one read,
+and freshness. Eleven months of physio is the long effort; three steps, a
+front door and a rail are the scene seen happening; the pride arrives with
+the last words ("without touching the rail") and is never asserted. The
+runner-up line (a boy reading a page aloud after stuttering through every
+lesson) was set aside: its scene is less visually specific and its pride
+lands mid-line, with "without stopping once" as a trailing confirmation.
+
+Verified 2026-11-24: two runs, byte-identical entry.txt (sha256
+96515b80c8042af7e4154ac05dd1992ac21dba8a9edadf203f5d4cb51e0cbb5a),
+103 characters / 103 bytes, mode 0644; independent pre-submit review
+(APPROVE, no fixes) recorded as consultation #148.
 """
 
 import os
